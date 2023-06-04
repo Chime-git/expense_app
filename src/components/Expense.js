@@ -6,7 +6,6 @@ export default function Expense(props) {
 
     return (
         <div className='Expense.expense'>
-
             <ExpenseItem title={props.expenses[0].title}
                          amount={props.expenses[0].amount}
                          date={props.expenses[0].date}></ExpenseItem>
