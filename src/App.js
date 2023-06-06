@@ -1,4 +1,5 @@
 import Expense from "./components/Expense";
+import ExpensesFilter from "./components/ExpensesFilter";
 
 function App() {
     const expenses = [
@@ -22,9 +23,13 @@ function App() {
             date: new Date(2021, 5, 12),
         },
     ];
+
+
     return (
         <div>
+
             <Expense expenses={expenses}/>
+
         </div>
     );
 }
